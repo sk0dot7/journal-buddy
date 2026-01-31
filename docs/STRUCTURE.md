@@ -7,10 +7,17 @@ journal-buddy/
 ├── requirements.txt           # Python dependencies
 ├── setup.sh                   # Automated setup script
 ├── README.md                  # Full documentation
-├── QUICKSTART.md             # Quick start guide
 ├── journal-buddy.service     # Systemd service template
 ├── .gitignore                # Git ignore rules
 │
+├── docs/
+|   ├──STRUCTURE.md
+|   ├──QUICKSTART.md
+|   ├──NO_TRAY.md
+|   ├──GETTING_STARTED.md
+|   ├──FIXES.md
+|   └──CONTRIBUTING.md
+|
 ├── gui/                      # GUI components
 │   ├── __init__.py
 │   ├── chat_window.py       # Main chat interface
