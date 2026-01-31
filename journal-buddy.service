@@ -1,0 +1,14 @@
+[Unit]
+Description=Journal Buddy - AI Journaling Assistant
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/python3 /path/to/journal-buddy/main.py
+Restart=on-failure
+RestartSec=10
+Environment="DISPLAY=:0"
+Environment="XAUTHORITY=/home/%u/.Xauthority"
+
+[Install]
+WantedBy=default.target
