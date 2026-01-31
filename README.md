@@ -3,7 +3,7 @@
 **Your AI-powered journaling companion for Obsidian**
 
 <p align="center">
-  <img src="docs/banner.png" width="100%">
+  <img src="docs/image.png" width="100%">
 </p>
 
 <p align="center">
